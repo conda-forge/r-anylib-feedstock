@@ -3,7 +3,7 @@ About r-anylib
 
 Home: https://CRAN.R-project.org/package=anyLib
 
-Package license: CC-BY-NC-SA-4.0
+Package license: CC-BY-SA-4.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-anylib-feedstock/blob/master/LICENSE.txt)
 
