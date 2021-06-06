@@ -1,4 +1,4 @@
-{% set version = '1.0.5' %}
+{% set version = "1.0.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -13,7 +13,7 @@ source:
   sha256: 759b53ecc58136458220108a72004f360404ad2769cbf6ead48dcf09212a3df5
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -46,11 +46,8 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=anyLib
-  license: CC-BY-NC-SA-4.0
-  summary: Made to make your life simpler with packages, by installing and loading a list of
-    packages, whether they are on CRAN, Bioconductor or github. For github, if you do
-    not have the full path, with the maintainer name in it (e.g. "achateigner/topReviGO"),
-    it will be able to load it but not to install it.
+  license: CC-BY-SA-4.0
+  summary: Made to make your life simpler with packages, by installing and loading a list of packages, whether they are on CRAN, Bioconductor or github. For github, if you do not have the full path, with the maintainer name in it (e.g. "achateigner/topReviGO"), it will be able to load it but not to install it.
   license_family: CC
 
 extra:
