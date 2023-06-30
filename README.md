@@ -1,11 +1,11 @@
-About r-anylib
-==============
+About r-anylib-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-anylib-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=anyLib
 
 Package license: CC-BY-SA-4.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-anylib-feedstock/blob/main/LICENSE.txt)
 
 Summary: Made to make your life simpler with packages, by installing and loading a list of packages, whether they are on CRAN, Bioconductor or github. For github, if you do not have the full path, with the maintainer name in it (e.g. "achateigner/topReviGO"), it will be able to load it but not to install it.
 
